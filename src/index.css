@@ -17,6 +17,7 @@ code {
 }
 
 .page-header {
+  width: 100%;
   display: flex;
 }
 
@@ -27,6 +28,7 @@ code {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  margin: 0 40px;
 }
 
 .page-header ul li {
@@ -35,6 +37,13 @@ code {
 .page-header ul li a {
   text-decoration: none;
   color: #2e2b40;
+}
+
+.header-menu a {
+  display: block;
+  width: 35px;
+  height: 24px;
+  background-image: url(./img/burger.png);
 }
 
 .logo {
