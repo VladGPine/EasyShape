@@ -1,0 +1,79 @@
+.page-header {
+    width: 100%;
+    display: flex;
+    flex: 0 0 auto;
+  }
+  
+  .page-header ul {
+    width: 100%;
+    height: 141px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .page-header ul li {
+  }
+  
+  .page-header ul li a {
+    text-decoration: none;
+    color: #2e2b40;
+  }
+  
+  .header-menu a {
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 24px;
+  }
+  
+  .header-menu a span,
+  .header-menu a span::before,
+  .header-menu a span::after {
+    position: absolute;
+    height: 2px;
+    background-color: #ccd1d9;
+  }
+  
+  .header-menu a span {
+    top: 50%;
+    width: 15px;  
+    margin-top: -1px;
+  }
+  
+  .header-menu a span::before,
+  .header-menu a span::after {
+    content: '';
+    display: block;
+    width: 22px;
+  }
+  
+  .header-menu a span::before {
+    transform: translateY(-10px)
+  }
+  
+  .header-menu a span::after {
+    transform: translateY(10px)
+  }
+  
+  
+  .header-menu a:hover span,
+  .header-menu a:hover span::before,
+  .header-menu a:hover span::after {
+    background-color: #aab2bd;
+  }
+  
+  .logo {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  .cart a i {
+    color: #ccd1d9;
+  }
+  
+  .cart a i:hover {
+    color: #aab2bd;
+  }

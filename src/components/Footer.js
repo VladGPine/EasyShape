@@ -1,0 +1,16 @@
+import React from 'react';
+
+import '../css/footer.css';
+
+class Footer extends React.Component {
+  render() {
+    return (
+      <footer>
+        <p>&#169; &laquo;EasyShape&raquo;, 2019</p>
+      </footer>
+    )
+  }
+}
+
+
+export default Footer
