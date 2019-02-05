@@ -14,10 +14,6 @@ class Main extends React.Component {
         <Product />
         <Product />
         <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
       </main>
     )
   }

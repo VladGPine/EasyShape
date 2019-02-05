@@ -1,16 +1,20 @@
 import React from 'react';
 
-import '../css/product.css'
+import '../css/product.css';
+import '../img/productPhoto.jpg';
 
 class Product extends React.Component {
-    render() {
-        return (
-            <div className='product'>
-                <img className='product-image' src="http://bm.img.com.ua/nxs/img/prikol/images/large/0/0/307600.jpg" alt=""/>
-                <p className="product-title">Christina Aguilera Royal «Black & Red»</p>
-            </div>
-        )
-    }
-  }
+	render() {
+		return (
+			<div className='product'>
+				<img className='product-image' src={require('../img/productPhoto.jpg')} alt="" />
+				<p className="product-title">Christina Aguilera Royal «Black & Red»</p>
+				<div className='price'>
+					<span className="discount">2 650</span> 1 990
+				</div>
+			</div>
+		)
+	}
+}
 
-  export default Product
+export default Product

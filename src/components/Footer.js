@@ -6,7 +6,7 @@ class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <p>&#169; &laquo;EasyShape&raquo;, 2019</p>
+        <p className="copy">&#169; &laquo;EasyShape&raquo;, 2019</p>
       </footer>
     )
   }
