@@ -66,10 +66,10 @@
   text-transform: uppercase;
 }
 
-.cart a i {
-  color: #ccd1d9;
+.cart-svg {
+  fill: #ccd1d9;
 }
 
-.cart a i:hover {
-  color: #aab2bd;
+.cart:hover .cart-svg {
+  fill: #aab2bd;
 }
