@@ -13,7 +13,7 @@ class Header extends React.Component {
               {/* Easy<strong>Shape</strong> */}
               <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="259px" height="30px">
                 <text fill="rgb(0, 0, 0)" fontSize="42px" x="0px" y="30px">
-                  <tspan fontSize="42px" fontFamily="Roboto, sans-serif" fontWeight="light" fill="#2E2B40">Easy</tspan>
+                  <tspan fontSize="42px" fontFamily="Roboto, sans-serif" fontWeight="300" fill="#2E2B40">Easy</tspan>
                   <tspan fontSize="42px" fontFamily="Roboto, sans-serif" fontWeight="bold" fill="#2E2B40">Shape</tspan>
                 </text>
               </svg>
