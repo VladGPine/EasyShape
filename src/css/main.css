@@ -1,9 +1,10 @@
-main {
+main .product-list {
+  max-width: 2560px;
   width: 100%;
   display: flex;
   flex: 1 0 auto;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   /* margin: 0 auto; */
 }
