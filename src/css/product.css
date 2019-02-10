@@ -1,7 +1,4 @@
 .product {
-  /* max-width: 640px; */
-  width: 320px;
-  margin-bottom: 50px;
   box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
   transition: 0.2s ease-out;
   border-radius: 2px;
@@ -14,6 +11,10 @@
 .product:hover {
   transform: scale(1.01, 1.01);
   box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+}
+
+.product a {
+  text-decoration: none;
 }
 
 .product-image {
@@ -48,4 +49,30 @@
 .price::after,
 .price .discount::after {
   content: " \20BD";
+}
+
+@media (min-width: 1920px) {
+ 
+  .product {
+   width: calc(100% / 6 - 25px) ;
+   margin-bottom: 50px;
+ }
+
+ .product:not(:nth-child(6n+6))  {
+  margin-right: 30px;
+}
+
+}
+
+@media (min-width: 1366px) and (max-width: 1919px) {
+
+  .product {
+    width: calc(100% / 5 - 24px) ;
+    margin-bottom: 50px;
+  }
+
+  .product:not(:nth-child(5n+5))  {
+    margin-right: 30px;
+  }
+
 }
