@@ -3,11 +3,17 @@ import React from 'react';
 import '../css/header.css';
 
 class Header extends React.Component {
+  slideMenu(e) {
+    e.preventDefault();
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("menu-on");
+  }
+
   render() {
     return (
       <header className='page-header'>
         <ul>
-          <li className="header-menu"><a href="http://#" alt='Menu'><span></span></a></li>
+          <li className="header-menu"><a href="http://#" alt='Menu'  onClick={this.slideMenu.bind(this)}><span></span></a></li>
           <li className='logo'>
             <a href="http://#">
               {/* Easy<strong>Shape</strong> */}

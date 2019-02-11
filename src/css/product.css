@@ -1,5 +1,5 @@
 .product {
-  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  /* box-shadow: 1px 1px 10px rgba(0,0,0,0.5); */
   transition: 0.2s ease-out;
   border-radius: 2px;
 }
@@ -10,7 +10,7 @@
 
 .product:hover {
   transform: scale(1.01, 1.01);
-  box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+  /* box-shadow: 2px 2px 20px rgba(0,0,0,0.5); */
 }
 
 .product a {
