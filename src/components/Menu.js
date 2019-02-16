@@ -12,7 +12,6 @@ class Menu extends React.Component {
 	render() {
 		return (
       <nav className="menu" id="menu">
-        <div className="nav-arrow" onClick={this.slideMenu.bind(this)}><span></span></div>
         <ul className='product-types'>
           <li><a href='http://#' alt="">Лосины</a></li>
           <li><a href='http://#' alt="">Топы</a></li>

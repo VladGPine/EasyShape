@@ -10,3 +10,7 @@ main .product-list {
   /* margin-right: -15px; */
   /* margin: 0 auto; */
 }
+
+.product-list .product:last-child {
+  margin-bottom: 0;
+}

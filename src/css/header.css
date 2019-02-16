@@ -2,11 +2,12 @@
   width: 100%;
   display: flex;
   flex: 0 0 auto;
+  padding: 0 20px;
 }
 
 .page-header ul {
   width: 100%;
-  height: 141px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,8 +22,8 @@
 .header-menu a {
   position: relative;
   display: block;
-  width: 35px;
-  height: 24px;
+  width: 17.5px;
+  height: 12px;
 }
 
 .header-menu a span,
@@ -35,7 +36,7 @@
 
 .header-menu a span {
   top: 50%;
-  width: 25px;
+  width: 12px;
   margin-top: -1px;
 }
 
@@ -43,15 +44,15 @@
 .header-menu a span::after {
   content: '';
   display: block;
-  width: 35px;
+  width: 17.5px;
 }
 
 .header-menu a span::before {
-  transform: translateY(-10px)
+  transform: translateY(-5px)
 }
 
 .header-menu a span::after {
-  transform: translateY(10px)
+  transform: translateY(5px)
 }
 
 .header-menu a:hover span,
@@ -62,14 +63,29 @@
 
 .logo {
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 21px;
   text-transform: uppercase;
 }
 
+.logo a {
+  width: 259px;
+  height: 30px;
+  font-weight: 300;
+}
+
 .cart-svg {
+  transform: scale(0.5);
   fill: #ccd1d9;
 }
 
 .cart:hover .cart-svg {
   fill: #aab2bd;
+}
+
+@media (max-width: 320px) {
+  .logo a  {
+    width: 100%;
+    height: 100%;
+  }
+
 }

@@ -1,4 +1,5 @@
 .product {
+  margin-bottom: 46px;
   /* box-shadow: 1px 1px 10px rgba(0,0,0,0.5); */
   transition: 0.2s ease-out;
   border-radius: 2px;
@@ -20,25 +21,24 @@
 .product-image {
   width: 100%;
   height: 100%;
-  margin-bottom: 46px;
+  margin-bottom: 23px;
 }
 
 .product-title {
   color: #2e2b40;
-  font-size: 24px;
+  font-size: 15px;
 }
 
 .product-title,
 .price {
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
 .price {
   color: #ed5565;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   margin-top: 5px;
-  margin-bottom: 92px;
 }
 
 .price .discount {
