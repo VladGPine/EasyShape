@@ -4,7 +4,6 @@ import Menu from './components/Menu';
 import Backdrop from './components/Backdrop';
 import Main from './components/Main';
 import Footer from './components/Footer'
-
 import './css/app.css';
 
 class App extends Component {
