@@ -3,12 +3,6 @@ import React from 'react';
 import '../css/menu.css';
 
 class Menu extends React.Component {
-  // slideMenu(e) {
-  //   e.preventDefault();
-  //   const menu = document.getElementById("menu");
-  //   menu.classList.toggle("menu-on");
-  // }
-  
 
 	render() {
 		return (
