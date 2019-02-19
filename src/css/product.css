@@ -30,26 +30,29 @@
 }
 
 .product-title,
-.price {
+.price-block {
   margin: 0 20px;
 }
 
 .price {
-  color: #ed5565;
+  color: #2e2b40;
   font-size: 18px;
   font-weight: bold;
   margin-top: 5px;
 }
 
-.price .discount {
-  color: #ccd1d9;
-  text-decoration: line-through;
+.discounted-price {
+  color: #ed5565;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.price::after,
-.price .discount::after {
+
+
+/* .price::after,
+.price .discounted-price::after {
   content: " \20BD";
-}
+} */
 
 @media (min-width: 1920px) {
  
