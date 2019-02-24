@@ -59,14 +59,6 @@ const productsData = [
 		discount: 0
 	},
 	{
-		id: 8,
-		category: 'leggins', //или как они на английском
-		imgUrl: '../img/8.jpg', // путь к картинке товара
-		title: 'Bona Corsage «Dark Blue» ',
-		price: 2200,
-		discount: 0
-	},
-	{
 		id: 9,
 		category: 'leggins', //или как они на английском
 		imgUrl: '../img/9.jpg', // путь к картинке товара

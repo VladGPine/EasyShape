@@ -6,12 +6,14 @@ main .product-list {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  /* margin-left: -15px; */
-  /* margin-right: -15px; */
-  /* margin: 0 auto; */
+  padding: 0 50px;
 }
 
 @media (max-width: 767px) {
+
+  main .product-list {
+    padding: 0;
+  }
 
   .product-list .product:last-child {
     margin-bottom: 0;

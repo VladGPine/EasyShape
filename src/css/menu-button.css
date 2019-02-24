@@ -1,7 +1,7 @@
 .header-menu {
   position: relative;
   display: block;
-  width: 17.5px;
+  width: 22px;
   height: 12px;
   cursor: pointer;
 }
@@ -10,14 +10,14 @@
 .header-menu span::before,
 .header-menu span::after {
   position: absolute;
-  height: 2px;
+  height: 1px;
   background-color: #ccd1d9;
   
 }
 
 .header-menu span {
   top: 50%;
-  width: 12px;
+  width: 15.71px;
   margin-top: -1px;
 }
 
@@ -25,15 +25,15 @@
 .header-menu span::after {
   content: '';
   display: block;
-  width: 17.5px;
+  width: 21.99px;
 }
 
 .header-menu span::before {
-  transform: translateY(-5px)
+  transform: translateY(-7px)
 }
 
 .header-menu span::after {
-  transform: translateY(5px)
+  transform: translateY(7px)
 }
 
 .header-menu:hover span,
