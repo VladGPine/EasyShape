@@ -1,4 +1,5 @@
 .page-header {
+  max-width: 1600px;
   width: 100%;
   display: flex;
   flex: 0 0 auto;
@@ -21,7 +22,7 @@
 
 .logo {
   font-family: "Roboto", sans-serif;
-  font-size: 21px;
+  font-size: 24px;
   text-transform: uppercase;
 }
 

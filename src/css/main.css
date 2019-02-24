@@ -1,5 +1,5 @@
 main .product-list {
-  max-width: 2560px;
+  max-width: 1600px;
   width: 100%;
   display: flex;
   flex: 1 0 auto;
@@ -11,6 +11,10 @@ main .product-list {
   /* margin: 0 auto; */
 }
 
-.product-list .product:last-child {
-  margin-bottom: 0;
+@media (max-width: 767px) {
+
+  .product-list .product:last-child {
+    margin-bottom: 0;
+  }
+
 }

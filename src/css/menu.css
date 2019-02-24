@@ -11,62 +11,6 @@
   padding-left: 40px;
 }
 
-/* .menu-on {
-  display: block;
-} */
-
-/* Arrow menu button styles */
-
-/* .nav-arrow{
-  position: relative;
-  display: block;
-  width: 35px;
-  height: 141px;
-}
-
-.nav-arrow span,
-.nav-arrow span::before,
-.nav-arrow span::after {
-  position: absolute;
-  height: 2px;
-  background-color: #ccd1d9;
-}
-
-.nav-arrow span {
-  top: 50%;
-  width: 25px;
-  margin-top: -1px;
-}
-
-.nav-arrow span::before,
-.nav-arrow span::after {
-  content: '';
-  display: block;
-  width: 12px;
-}
-
-.nav-arrow span::before {
-  transform-origin: top left;
-  transform: 
-    translate(0.5px, -0.5px)
-    rotate(-35deg);
-}
-
-.nav-arrow span::after {
-  transform-origin: botom right;
-  transform: 
-    translate(0, 4px)
-    rotate(35deg);
-}
-
-.nav-arrow:hover span,
-.nav-arrow:hover span::before,
-.nav-arrow:hover span::after {
-  background-color: #aab2bd;
-} */
-
-
-
 .product-types {
   display: flex;
   flex-direction: column;

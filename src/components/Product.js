@@ -24,7 +24,8 @@ function Product(props) {
 						})}
 					</span>
 					<span className="discounted-price" 
-						style={{ opacity: props.product.discount ? 1 : 0 }}> {props.product.discount.toLocaleString(
+						style={{ 
+							opacity: props.product.discount ? 1 : 0 }}> {props.product.discount.toLocaleString(
 							'ru-RU', 
 							{ 
 								style: 'currency', 

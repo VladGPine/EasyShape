@@ -5,10 +5,6 @@
   border-radius: 2px;
 }
 
-.product:not(:nth-child(6n+6))  {
-  /* margin-right: 30px; */
-}
-
 .product:hover {
   transform: scale(1.01, 1.01);
   /* box-shadow: 2px 2px 20px rgba(0,0,0,0.5); */
@@ -26,7 +22,7 @@
 
 .product-title {
   color: #2e2b40;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .product-title,
@@ -47,34 +43,38 @@
   font-weight: bold;
 }
 
-
-
-/* .price::after,
-.price .discounted-price::after {
-  content: " \20BD";
-} */
-
-@media (min-width: 1920px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .product {
+    width: calc(100% / 2 - 15px) ;
+    margin-bottom: 50px;
+  }
  
-  .product {
-   width: calc(100% / 6 - 25px) ;
-   margin-bottom: 50px;
- }
-
- .product:not(:nth-child(6n+6))  {
-  margin-right: 30px;
+  .product:not(:nth-child(2n+2))  {
+     margin-right: 30px;
+  }
 }
 
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .product {
+    width: calc(100% / 3 - 20px) ;
+    margin-bottom: 50px;
+  }
+ 
+  .product:not(:nth-child(3n+3))  {
+     margin-right: 30px;
+  }
+
 }
 
-@media (min-width: 1366px) and (max-width: 1919px) {
+@media (min-width: 1367px) {
 
   .product {
-    width: calc(100% / 5 - 24px) ;
+    width: calc(100% / 4 - 22.5px) ;
     margin-bottom: 50px;
   }
 
-  .product:not(:nth-child(5n+5))  {
+  .product:not(:nth-child(4n+4))  {
     margin-right: 30px;
   }
 
