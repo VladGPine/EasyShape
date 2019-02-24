@@ -2,6 +2,7 @@
   display: block;
   /* opacity: 0.5; */
   width: 82%;
+  max-width: 380px;
   height: 100%;
   position: fixed;
   top: 0;

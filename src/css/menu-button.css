@@ -3,6 +3,7 @@
   display: block;
   width: 17.5px;
   height: 12px;
+  cursor: pointer;
 }
 
 .header-menu span,
@@ -11,6 +12,7 @@
   position: absolute;
   height: 2px;
   background-color: #ccd1d9;
+  
 }
 
 .header-menu span {
@@ -34,8 +36,8 @@
   transform: translateY(5px)
 }
 
-.header-menu :hover span,
-.header-menu :hover span::before,
-.header-menu :hover span::after {
+.header-menu:hover span,
+.header-menu:hover span::before,
+.header-menu:hover span::after {
   background-color: #aab2bd;
 }

@@ -40,11 +40,3 @@
 .cart:hover .cart-svg {
   fill: #aab2bd;
 }
-
-@media (max-width: 320px) {
-  .logo a  {
-    width: 100%;
-    height: 100%;
-  }
-
-}
