@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Backdrop from './components/Backdrop';
 import Main from './components/Main';
 import Cart from './components/Cart'
 import Footer from './components/Footer'
-import Routes from './components/Routes'
+// import Routes from './components/Routes'
 import './css/app.css';
 
 class App extends Component {
