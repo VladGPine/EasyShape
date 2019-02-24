@@ -30,7 +30,7 @@ const Header = props => (
             xmlns="http://www.w3.org/2000/svg"
             xlink="http://www.w3.org/1999/xlink"
             width="20px" height="20px">
-            <path fill-rule="evenodd" fill="rgb(204, 209, 217)"
+            <path fillRule="evenodd" fill="rgb(204, 209, 217)"
               d="M19.800,9.013 C19.672,9.162 19.508,9.248
               19.308,9.273 L6.764,10.747 C6.772,10.803 
               6.790,10.890 6.818,11.007 C6.846,11.124 6.870,11.230
