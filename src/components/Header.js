@@ -1,17 +1,9 @@
 import React from 'react';
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"; 
 import '../css/header.css';
 import MenuButton from './MenuButton';
 
-// class Header extends React.Component {
-// slideMenu(e) {
-//   e.preventDefault();
-//   const menu = document.getElementById("menu");
-//   menu.classList.toggle("menu-on");
-// }
 
-// render() {
-//   return (
 const Header = props => (
   <header className='page-header'>
     <ul>
@@ -19,13 +11,15 @@ const Header = props => (
         <MenuButton click={props.menuOpenClickHandler} />
       </li>
       <li className='logo'>
+      <Link to="/">
         <a href="http://#">
           Easy<span>Shape</span>
         </a>
+        </Link>
       </li>
       <li className='cart'>
+      <Link to="/cart">
         <a href="http://#" alt='Cart'>
-          {/* <i className="fas fa-shopping-cart fa-2x"></i> */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xlink="http://www.w3.org/1999/xlink"
@@ -69,13 +63,10 @@ const Header = props => (
               7.689,15.460 Z" />
           </svg>
         </a>
+        </Link>
       </li>
     </ul>
   </header>
 )
-
-//   )
-// }
-// }
 
 export default Header
