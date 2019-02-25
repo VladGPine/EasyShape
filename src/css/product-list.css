@@ -1,0 +1,21 @@
+.product-list {
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 50px;
+}
+
+@media (max-width: 767px) {
+
+  .product-list {
+    padding: 0;
+  }
+
+  .product:last-child {
+    margin-bottom: 44px;
+  }
+
+}

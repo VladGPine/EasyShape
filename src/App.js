@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Backdrop from './components/Backdrop';
 import Main from './components/Main';
-import Cart from './components/Cart'
 import Footer from './components/Footer'
-// import Routes from './components/Routes'
 import './css/app.css';
 
 class App extends Component {
@@ -36,14 +34,11 @@ class App extends Component {
     return (
       <Router>
         <div className="app">
-          <div className="container">
-            <Header menuOpenClickHandler={this.menuClickHandler} />
-            {menu}
-            {backdrop}
-              <Route exact path="/" component={Main} />
-              <Route path="/cart" component={Cart} />
-            <Footer />
-          </div>
+          <Header menuOpenClickHandler={this.menuClickHandler} />
+          {menu}
+          {backdrop}
+          <Main />
+          <Footer />
         </div>
       </Router>
     )

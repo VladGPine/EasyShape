@@ -14,32 +14,19 @@
   list-style: none;
 }
 
-.page-header ul li a {
-  text-decoration: none;
-  color: #2e2b40;
-}
-
 .logo {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 2.2px;
-}
-
-.logo a {
+  text-decoration: none;
+  color: #2e2b40;
   font-weight: 300;
 }
 
 .logo span {
   font-weight: 900;
-  /* letter-spacing: 1.5px; */
 }
-
-/* .cart,
-.cart a {
-  width: 20px;
-  height: 17px;
-} */
 
 .cart path {
   transform: translateY(3px);
@@ -49,7 +36,6 @@
 .cart:hover .cart-svg {
   fill: #aab2bd;
 }
-
 
 @media (max-width: 767px) {
   .page-header {
