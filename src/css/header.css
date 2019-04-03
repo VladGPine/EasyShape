@@ -2,7 +2,7 @@
   max-width: 1600px;
   width: 100%;
   display: flex;
-  flex: 0 0 auto;
+  justify-content: center;
   padding: 44px 70px;
 }
 
@@ -12,6 +12,11 @@
   justify-content: space-between;
   align-items: center;
   list-style: none;
+}
+
+.page-header ul li {
+  display: flex;
+  justify-content: center;
 }
 
 .logo {

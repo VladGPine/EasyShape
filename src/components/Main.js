@@ -5,7 +5,7 @@ import Details from './Details';
 import Cart from './Cart'
 
 import '../css/main.css'
-function Main() {
+function Main(props) {
   return (
     <main>
       <Route exact path='/' component={ProductList}></Route>
