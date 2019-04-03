@@ -12,23 +12,41 @@
   margin-bottom: 17px;
 }
 
+.description {
+  margin-top: 116px;
+  margin-right: 96px;
+}
+
 .details-category {
-  font-family: "Roboto", sans-serif;
   font-size: 11px;
   letter-spacing: 1px;
   color: #ccd1d9;
   text-transform: uppercase;
+  margin-bottom: 18px;
 }
 
 .details-product-title {
   color: #2e2b40;
-  font-family: "Roboto", sans-serif;
   font-size: 42px;
   font-weight: bold;
-  margin-bottom: 7px;
+  margin-bottom: 27px;
   text-decoration: none;
 }
 
+.details-price-block {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.details-price {
+  color: #ccd1d9;
+  text-decoration: line-through;
+  margin-right: 21px;
+}
+
+.details-discounted-price {
+  color: #ed5565;
+}
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
