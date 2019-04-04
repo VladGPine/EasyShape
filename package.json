@@ -2,9 +2,8 @@
   "name": "easyshape",
   "version": "0.1.0",
   "engines": {
-    "node": "10.9.0"
+    "node": "10.x"
   },
-  "private": false,
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
@@ -13,8 +12,8 @@
     "react-router-dom": "^4.3.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node src/index.js",
+    "build": "webpack"
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
