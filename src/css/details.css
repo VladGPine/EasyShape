@@ -26,6 +26,10 @@
   left: 50px;
 }
 
+.preview-image {
+  position: relative;
+}
+
 .preview-image:not(:last-child) {
   margin-bottom: 20px;
 }
