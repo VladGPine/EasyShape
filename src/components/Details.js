@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import '../css/details.css';
 
@@ -43,9 +44,43 @@ const Details = props => {
           <p className='product-material'><strong>Ткань:</strong> бифлекс</p>
           <p className='product-consist'><strong>Cостав:</strong> полиамид — 50%, полиэстер — 44%, эластан — 6%</p>
         </div>
-        <div className='sizes'>
-          <ul></ul>
-        </div>
+        <form className='sizes'>
+          <ul className='size-list'>
+            <li className="size-item">
+              <label className="size-label">
+                <input type="checkbox" className="size-input"/>
+                <span className="label-text">XS</span>
+              </label>
+            </li>
+            <li className="size-item">
+              <label className="size-label">
+                <input type="checkbox" className="size-input"/>
+                <span className="label-text">S</span>
+              </label>
+            </li>
+            <li className="size-item">
+              <label className="size-label">
+                <input type="checkbox" className="size-input"/>
+                <span className="label-text">M</span>
+              </label>
+            </li>
+            <li className="size-item">
+              <label className="size-label">
+                <input type="checkbox" className="size-input"/>
+                <span className="label-text">L</span>
+              </label>
+            </li>
+            <li className="size-item">
+              <label className="size-label">
+                <input type="checkbox" className="size-input"/>
+                <span className="label-text">XL</span>
+              </label>
+            </li>
+          </ul>
+          <Link className="dimensions-link" to='/dimensions'>
+            таблица размеров
+          </Link>
+        </form>
       </div>
 
     </div>
