@@ -9,5 +9,4 @@ const Dimensions = props => (
 
 )
 
-
 export default Dimensions

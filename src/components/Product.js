@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+import Details from './Details';
+
 import '../css/product.css';
 
 

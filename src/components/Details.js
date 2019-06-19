@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import '../css/details.css';
 
 const Details = props => {
+  
+    console.log(props);
+  
   return (
     <div className='details'>
       <div className='details-slider'>
