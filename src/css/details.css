@@ -92,6 +92,7 @@
 
 .sizes {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 57px;
 }
@@ -139,6 +140,20 @@
   background-size: contain;
   background-repeat: no-repeat;
 
+}
+
+.add-to-cart {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+  background-color: #ed5565;
+  border: none;
+  margin-top: 60px;
+  padding: 23px 41px 22px 40px;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

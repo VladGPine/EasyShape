@@ -16,19 +16,16 @@ const Details = props => {
             <a href='/'>
               <img src='../img/my-heart-will-go-on-gray-pink/my-heart-will-go-on-preview-1.jpg' alt='preview' />
             </a>
-
           </li>
           <li className='preview-image'>
             <a href='/'>
               <img src='../img/my-heart-will-go-on-gray-pink/my-heart-will-go-on-preview-2.jpg' alt='preview' />
             </a>
-
           </li>
           <li className='preview-image'>
             <a href='/'>
               <img src='../img/my-heart-will-go-on-gray-pink/my-heart-will-go-on-preview-3.jpg' alt='preview' />
             </a>
-
           </li>
         </ul>
       </div>
@@ -47,6 +44,7 @@ const Details = props => {
           <p className='product-material'><strong>Ткань:</strong> бифлекс</p>
           <p className='product-consist'><strong>Cостав:</strong> полиамид — 50%, полиэстер — 44%, эластан — 6%</p>
         </div>
+
         <form className='sizes'>
           <ul className='size-list'>
             <li className="size-item">
@@ -83,6 +81,7 @@ const Details = props => {
           <Link className="dimensions-link" to='/dimensions'>
             таблица размеров
           </Link>
+          <button className="add-to-cart">В корзину</button>
         </form>
       </div>
 
