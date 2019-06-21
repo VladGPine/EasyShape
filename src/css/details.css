@@ -151,6 +151,7 @@
   border: none;
   padding: 23px 41px 22px 40px;
   cursor: pointer;
+  outline: none;
 }
 
 .add-to-cart {
