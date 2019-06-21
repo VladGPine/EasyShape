@@ -142,18 +142,21 @@
 
 }
 
-.add-to-cart {
-  color: #ffffff;
+.btn {
   font-family: 'Roboto';
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.65px;
-  background-color: #ed5565;
   border: none;
-  margin-top: 60px;
   padding: 23px 41px 22px 40px;
   cursor: pointer;
+}
+
+.add-to-cart {
+  color: #ffffff;
+  background-color: #ed5565;
+  margin-top: 60px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

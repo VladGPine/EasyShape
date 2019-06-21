@@ -81,7 +81,7 @@ const Details = props => {
           <Link className="dimensions-link" to='/dimensions'>
             таблица размеров
           </Link>
-          <button className="add-to-cart">В корзину</button>
+          <button className="add-to-cart btn">В корзину</button>
         </form>
       </div>
 
