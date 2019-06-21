@@ -1,8 +1,8 @@
-import React from 'react';
-import { Route } from "react-router-dom";
-import ProductList from './ProductList';
-import Details from './Details';
-import Cart from './Cart';
+import React from 'react'
+import { Route } from "react-router-dom"
+import ProductList from './ProductList'
+import Details from './Details'
+import Cart from './Cart'
 import Dimensions from './Dimensions'
 
 import '../css/main.css'
